@@ -1,0 +1,12 @@
+{
+  "name": "stratum-cloud",
+  "version": "1.0.0",
+  "description": "Stratum Next-Gen BaaS Platform",
+  "scripts": {
+    "server": "node server/src/server.js",
+    "client": "npm.cmd --prefix client run dev",
+    "start": "node server/src/server.js"
+  },
+  "keywords": ["baas", "database", "storage", "auth", "realtime", "cloud"],
+  "license": "MIT"
+}

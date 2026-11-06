@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build
+dist/
+client/dist/
+
+# Server runtime database, uploads, and logs
+server/data/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
